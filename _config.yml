@@ -21,6 +21,7 @@ author: Kenny Chen
 
 navbar-links:
   About Me: "aboutme"
+  CV: "cv"
   Resources:
     - Test 1: "https://beautifuljekyll.com"
     - Test 2: "https://www.markdowntutorial.com/"
