@@ -1,25 +1,21 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body a="{{ site.theme_config.appearance | default: "auto" }}">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        {{ content }}
+      </div>
+    </main>
 
-<div class="intro-header"></div>
+    {%-if site.goat_counter and jekyll.environment == "production"-%}
+      {%-include goat_counter.html-%}
+    {%-endif-%}
 
-<div role="main" class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
-  {% if page.before-content %}
-    <div class="before-content">
-      {% for file in page.before-content %}
-        {% include {{ file }} %}
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
-    </div>
-  {% endif %}
-
-  {{ content }}
-
-  {% if page.after-content %}
-    <div class="after-content">
-      {% for file in page.after-content %}
-        {% include {{ file }} %}
-      {% endfor %}
-    </div>
-  {% endif %}
-</div>
+    {% endif %}
+  </body>
+</html>
