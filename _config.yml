@@ -9,6 +9,8 @@
 # --- Required options --- #
 ############################
 
+theme: no-style-please
+
 # Name of website
 title: "Home"
 tagline: "Kenny Chen's Personal Website. Come to the dark side, we have cookies."
