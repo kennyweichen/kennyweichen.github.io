@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 title: "Language Tests"
 category: example2
 ---
