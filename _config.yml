@@ -1,6 +1,6 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
+title: "Kenny's Website" # name of the site
+author: Kenny Chen # name of site's author
+email: kennychen0713@gmail.com # email of site's author
 url: https://kennyweichen.com # root address of the site
 baseurl: # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
