@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 custom_js: mouse_coords
 ---
 
