@@ -27,9 +27,27 @@ morality. I tend to think in these retributive lens.
 "Oh, they did X, so Y should happen."
 
 But after graduating and moving to Chicago and recovering from a herniated disc and running two half marathons and putting myself out there to meet new people and trying to be a better person and turning 24,
-I quickly found myself to be extremely aware of myself thinking those thoughts and this image came into my mind.
+I quickly found myself to be extremely aware of myself thinking those thoughts and this image came into my mind:
 
-![image](https://github.com/user-attachments/assets/ef38e2f7-95e8-4541-bfb6-5336b078f02f){height=100}
+![image](https://github.com/user-attachments/assets/ef38e2f7-95e8-4541-bfb6-5336b078f02f)
+
+"I have no enemies."
+
+Now, if you're just as brain rotted as I am, you've probably seen this on TikTok or other social media platforms, often used as a caricature or highly satorized and used in an ironic way.
+
+But I choose not too engulf myself in edginess and despair and I instead choose to see that quote for it's face value.
+
+"I have no enemies."
+
+No one is trying to sabotage me. The world is not actively praying for my downfall. Things like this just happen.
+
+Thankfully, I always leave home super early so this did not make me late so I chose to see the positive in this. It forced me to buy an air pump, which will be useful in the future as well as reminding me to take better care of my bike (it's hard for me sometimes to remember these things when I live in a world of planned obsolescence).
+
+Today, the choice of being intentional paid off and I got just a little bit better at recognizing when I'm blaming others. It does nothing for me except bring stress and anxiety.
+
+"I have no enemies." - Thors, Vinland Saga
+
+
 
 
 
