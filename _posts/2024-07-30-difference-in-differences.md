@@ -1,6 +1,3 @@
-Difference in Differences
-================
-
 # Introduction
 
 The first time I heard about Difference in Differences was in the PhD
