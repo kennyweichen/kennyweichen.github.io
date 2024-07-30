@@ -14,6 +14,7 @@ After a solid 20 minutes of browsing the web, it’s reductively just
 introducing an interaction term between time and treatment…
 
 Walking through this example:
+https://www.princeton.edu/~otorres/DID101R.pdf
 
 ``` r
 library(foreign)
