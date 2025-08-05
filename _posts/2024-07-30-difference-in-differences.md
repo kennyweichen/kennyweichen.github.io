@@ -1,3 +1,7 @@
+---
+layout: post
+category: statistics
+---
 # Introduction
 
 The first time I heard about Difference in Differences was in the PhD

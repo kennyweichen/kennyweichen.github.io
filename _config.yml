@@ -3,8 +3,7 @@ author: Kenny Chen # name of site's author
 email: kennychen0713@gmail.com # email of site's author
 url: https://kennyweichen.com # root address of the site
 baseurl: # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
 permalink: /:slug.html
 
@@ -14,7 +13,7 @@ favicon: "android-chrome-512x512.png" # name+extension of favicon (which must be
 remote_theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page

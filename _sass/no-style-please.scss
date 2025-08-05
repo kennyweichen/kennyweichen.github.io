@@ -19,7 +19,10 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
+html, body { background: white; 
+  display: flex;          /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+}
 
 html { height: 100%; }
 
@@ -31,6 +34,11 @@ body {
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
+  cursor: url('/assets/images/point.png'), auto;
+}
+
+a:hover {
+    cursor: url('/assets/images/point.png'), auto;
 }
 
 .post-meta { text-align: right; }
@@ -47,7 +55,7 @@ li { margin: 0.4rem 0; }
 
 .w {
   max-width: 640px;
-  margin: 0 auto;
+  // margin: auto auto;
   padding: 4rem 2rem;
 }
 

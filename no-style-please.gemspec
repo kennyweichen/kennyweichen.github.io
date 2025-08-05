@@ -17,3 +17,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7.1"
 
 end
+
+
+# a gemspec is like a package.json file 
