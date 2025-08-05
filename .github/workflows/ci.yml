@@ -11,5 +11,6 @@ jobs:
           docker run --rm \
           -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/jekyll:4.2.2 \
-          jekyll build --future
+          jekyll/jekyll:4.2.2 /bin/bash -c "
+          chmod 777 /srv/jekyll &&
+          jekyll build --future"
