@@ -38,6 +38,14 @@ entries:
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
+
+  #  - title: posts by category
+  #    post_list:
+  #     category: projects
+  #     limit: 5
+  #     show_more: true
+  #     show_more_text: See archive...
+  #     show_more_url: archive.html
   # - title: posts by category
   #   post_list:
   #     category: example2

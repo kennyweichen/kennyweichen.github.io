@@ -24,3 +24,10 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+# collections_dir: my_collections
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:path/

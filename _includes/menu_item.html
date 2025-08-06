@@ -1,12 +1,21 @@
 <ul>
   {%-for item in include.collection-%}
-    <li>
-    {%- if item.url -%}
-      <a href="{{ item.url }}">{{ item.title }}</a>
-    {%- else -%}
-      {{ item.title }}
+  <li>
+    {%- assign label = item.title -%}
+    {%- if label == nil or label == "posts by category" -%}
+      {%- if item.post_list and item.post_list.category -%}
+        {%- assign label = item.post_list.category | capitalize -%}
+      {%- else -%}
+        {%- assign label = "Untitled" -%}
+      {%- endif -%}
     {%- endif -%}
-    </li>
+  
+    {%- if item.url -%}
+      <a href="{{ item.url }}">{{ label }}</a>
+    {%- else -%}
+      {{ label }}
+    {%- endif -%}
+  </li>
 
     {%-if item.post_list-%}
       {%
