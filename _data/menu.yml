@@ -15,6 +15,10 @@ entries:
   #     show_more: true
   #     show_more_text: See archive...
   #     show_more_url: archive.html
+
+   - title: About Me
+     url: /about/
+
    - title: posts by category
      post_list:
       category: statistics
@@ -41,6 +45,9 @@ entries:
       
    - title: GitHub Repos
      url: /github/
+
+   - title: Strava
+     url: /strava/
 
   #  - title: posts by category
   #    post_list:

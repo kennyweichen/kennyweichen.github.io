@@ -45,6 +45,13 @@ a:active {
   cursor: url('/assets/images/point_low.png'), auto;
 }
 
+a:link,
+a:visited {
+  color: #0366d6; /* or whatever your link color is */
+  text-decoration: underline;
+}
+
+
 
 // body.clicking {
 //   cursor: url('/assets/images/point_low.png'), auto;
@@ -117,9 +124,10 @@ img {
 .w-full {
   width: 100vw;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
 }
 
 .w-full > * {
   padding: 2rem; /* optional, adds breathing room */
 }
+
