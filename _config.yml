@@ -3,7 +3,7 @@ author: Kenny Chen # name of site's author
 email: kennychen0713@gmail.com # email of site's author
 url: https://kennyweichen.com # root address of the site
 baseurl: # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
+description: This is my website where I'm putting everything about myself into one place. In the age of ChatGPT written buzzwords and sentences, I'm opting for brevity and precision.
 
 permalink: /:slug.html
 
@@ -16,7 +16,7 @@ theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: "back" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true # show blog description in home page
 
 sass:
   style: :compressed
