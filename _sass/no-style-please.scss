@@ -41,6 +41,15 @@ a:hover {
     cursor: url('/assets/images/point.png'), auto;
 }
 
+a:active {
+  cursor: url('/assets/images/point_low.png'), auto;
+}
+
+
+body.clicking {
+  cursor: url('/assets/images/point_low.png'), auto;
+}
+
 .post-meta { text-align: right; }
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }

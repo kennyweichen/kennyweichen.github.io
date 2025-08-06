@@ -18,13 +18,24 @@
       {%-include goat_counter.html-%}
     {%-endif-%}
 
-    {% if page.custom_js %}
+    <!-- {% if page.custom_js %}
       {% for js_file in page.custom_js %}
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
-    {% endif %}
+    {% endif %} -->
+
+    {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+      <script src="{{ '/assets/js/' | append: js_file | append: '.js' | relative_url }}"></script>
+    {% endfor %}
+  {% endif %}
+  
+  <script src="{{ '/assets/js/mouse_click.js' | relative_url }}"></script>
+  
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+
 
   </body>
 </html>
