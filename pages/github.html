@@ -1,0 +1,78 @@
+---
+layout: default
+permalink: /github/
+full_width: true
+---
+{%-include back_link.html-%}
+
+
+<head>
+  <style>
+    .repo-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.repo-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  background: #fafafa;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.repo-card:hover {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
+}
+
+.repo-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.repo-card h2 a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.repo-card h2 a:hover {
+  text-decoration: underline;
+}
+
+.repo-card p {
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+
+<h1>My GitHub Projects</h1>
+<div id="github-repos" class="repo-cards"></div>
+
+
+
+<script>
+fetch("https://api.github.com/users/kennyweichen/repos?sort=updated")
+  .then(res => res.json())
+  .then(repos => {
+    const container = document.getElementById("github-repos");
+    repos.forEach(repo => {
+      const card = document.createElement("div");
+      card.className = "repo-card";
+      card.innerHTML = `
+        <h2><a href="${repo.html_url}" target="_blank">${repo.name}</a></h2>
+        <p>${repo.description || 'No description'}</p>
+        <p>★ ${repo.stargazers_count} | 🍴 ${repo.forks_count}</p>
+      `;
+      container.appendChild(card);
+    });
+  });
+</script>
+
+

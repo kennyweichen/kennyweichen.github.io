@@ -38,6 +38,9 @@ entries:
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
+      
+   - title: GitHub Repos
+     url: /github/
 
   #  - title: posts by category
   #    post_list:
