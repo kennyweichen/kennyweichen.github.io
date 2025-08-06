@@ -3,9 +3,15 @@
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
     <main class="page-content" aria-label="Content">
-      <div class="w">
-        {{ content }}
-      </div>
+        {% if page.full_width %}
+    <div class="w-full">
+      {{ content }}
+    </div>
+  {% else %}
+    <div class="w">
+      {{ content }}
+    </div>
+  {% endif %}
     </main>
 
     {%-if site.goat_counter and jekyll.environment == "production"-%}

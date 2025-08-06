@@ -100,3 +100,13 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.w-full {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.w-full > * {
+  padding: 2rem; /* optional, adds breathing room */
+}
