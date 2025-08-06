@@ -1,9 +1,8 @@
 ---
+title: "About Me"
 layout: page
 permalink: /about/
 ---
-
-# About Me
 
 I am Kenny Chen. 
 
