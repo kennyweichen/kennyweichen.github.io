@@ -3,7 +3,7 @@ author: Kenny Chen # name of site's author
 email: kennychen0713@gmail.com # email of site's author
 url: https://kennyweichen.com # root address of the site
 baseurl: # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: This is my website where I'm putting everything about myself into one place. In the age of ChatGPT written buzzwords and sentences, I'm opting for brevity and precision.
+description: This is my website where I'm putting everything about myself into one place. In the age of ChatGPT written buzzwords and sentences, I'm opting for brevity and precision. Still trying to figure out the best way to organize my website. Like life, it is a WIP.
 
 permalink: /:slug.html
 
