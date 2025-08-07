@@ -11,10 +11,16 @@
     {%- endif -%}
   
     {%- if item.url -%}
-      <a href="{{ item.url }}">{{ label }}</a>
-    {%- else -%}
-      {{ label }}
-    {%- endif -%}
+  <a 
+    href="{{ item.url }}" 
+    {% if item.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}
+  >
+    {{ label }}
+  </a>
+{%- else -%}
+  {{ label }}
+{%- endif -%}
+
   </li>
 
     {%-if item.post_list-%}

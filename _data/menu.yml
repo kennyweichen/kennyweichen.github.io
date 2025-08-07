@@ -42,15 +42,28 @@ entries:
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
+
+  #  - title: posts by category
+  #    post_list:
+  #     category: misc
+  #     limit: 5
+  #     show_more: true
+  #     show_more_text: See archive...
+  #     show_more_url: archive.html
       
    - title: GitHub Repos
      url: /github/
 
+   - title: Misc
+     url: https://ourchildrenoregon.org/wp-content/uploads/2020/11/county-data-book-2020-final-web.pdf
+
 
    - title: Presentations and Publications
      url: /publications/
+     external: true
 
-   - title: Pictures
+
+   - title: Bragging Corner
      url: /pictures/
 
    - title: Strava
