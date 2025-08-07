@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 
-My name is Kenny Chen, 陈承熙, and here's a little bit more about me: 
+Here's a little bit more about me: 
 
 Currently:
 * Biostatistician in the Comprehensive Transplant Center at the Northwestern Feinberg School of Medicine 
