@@ -8,6 +8,8 @@ gem "base64"
 gem "logger"
 gem "bigdecimal"
 gem "webrick"
+gem 'jekyll-toc'
+
 gemspec
 
 # A gemfile is a dependency manager
