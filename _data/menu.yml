@@ -48,6 +48,9 @@ entries:
 
    - title: Strava
      url: /strava/
+  
+   - title: Pictures
+     url: /pictures/
 
   #  - title: posts by category
   #    post_list:
