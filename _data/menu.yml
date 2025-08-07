@@ -46,11 +46,16 @@ entries:
    - title: GitHub Repos
      url: /github/
 
+
+   - title: Presentations and Publications
+     url: /publications/
+
+   - title: Pictures
+     url: /pictures/
+
    - title: Strava
      url: /strava/
   
-   - title: Pictures
-     url: /pictures/
 
   #  - title: posts by category
   #    post_list:
