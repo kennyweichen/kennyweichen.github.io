@@ -24,8 +24,8 @@ entries:
       category: statistics
       limit: 5
       show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+      show_more_text: See more posts
+      show_more_url: /pages/archive.html/
       
    - title: posts by category
      post_list:
