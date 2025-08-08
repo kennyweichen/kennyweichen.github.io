@@ -25,7 +25,7 @@ entries:
       limit: 5
       show_more: true
       show_more_text: See more posts
-      show_more_url: /pages/archive.html/
+      show_more_url: /archive.html/
       
    - title: posts by category
      post_list:
