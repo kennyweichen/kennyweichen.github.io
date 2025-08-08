@@ -25,7 +25,7 @@ entries:
       limit: 5
       show_more: true
       show_more_text: See more posts
-      show_more_url: /archive.md/
+      show_more_url: /pages/archive.md/
       
    - title: posts by category
      post_list:
