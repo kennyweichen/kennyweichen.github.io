@@ -2,5 +2,5 @@
 layout: archive
 title: More posts
 which_category: statistics
-permalink: /archive.html/
+permalink: /archive.md/
 ---
