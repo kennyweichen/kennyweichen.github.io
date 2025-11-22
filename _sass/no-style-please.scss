@@ -75,9 +75,9 @@ li { margin: 0.4rem 0; }
 
 .w {
   width: 50%;           /* Takes 60% of the viewport width */
-  // max-width: 960px;     /* Wider max width */
-  // max-width: 640px;
-  // margin: auto auto;
+  /* max-width: 960px; */     /* Wider max width */
+  /* max-width: 640px; */
+  /* margin: auto auto; */
   margin: 0 auto;
   padding: 4rem 2rem;
 }
@@ -99,8 +99,8 @@ table, th, td {
 }
 
 code {
-  color: white;
-  background: black;
+  color: black;
+  background: white;
 }
 
 div.highlighter-rouge code {
