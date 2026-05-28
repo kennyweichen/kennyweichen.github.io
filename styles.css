@@ -1,0 +1,208 @@
+/* Minimal Quarto styling ported from Jekyll no-style-please */
+
+:root {
+  --link-color: #0366d6;
+  --text-color: #000;
+  --bg-color: #fff;
+  --border-color: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #58a6ff;
+    --text-color: #fff;
+    --bg-color: #0d1117;
+    --border-color: #444;
+  }
+}
+
+/* Dark mode toggle support */
+body.dark-mode {
+  filter: invert(1);
+}
+
+body.dark-mode img.ioda {
+  filter: invert(1);
+}
+
+/* Base styling */
+html, body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  cursor: url('/assets/images/point.png'), auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+html {
+  height: 100%;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: url('/assets/images/point.png'), auto;
+}
+
+a:active {
+  cursor: url('/assets/images/point_low.png'), auto;
+}
+
+/* Clicked state */
+html.clicking, body.clicking {
+  cursor: url('/assets/images/point_low.png'), auto;
+}
+
+/* Target highlighting */
+*:target {
+  background: yellow;
+}
+
+/* Spacing */
+h2, h3, h4, h5, h6 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 0;
+  text-align: center;
+}
+
+hr:before {
+  content: '/////';
+}
+
+p {
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+/* Main content container */
+main {
+  width: 50%;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* Full-width support */
+.full-width {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* Post/page meta */
+.post-meta {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: thin solid var(--border-color);
+  padding: 0.4rem;
+}
+
+/* Code blocks */
+code {
+  background: var(--bg-color);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+pre {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--border-color);
+  margin: 0;
+  padding-left: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Navigation navbar overrides for Quarto */
+.navbar {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-color) !important;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid var(--link-color);
+}
+
+/* Blog listing customization */
+.listing {
+  max-width: 100%;
+}
+
+.listing-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,5 @@
+---
+title: Strange Post
+---
+
+This post is strange. It also has some custom js.

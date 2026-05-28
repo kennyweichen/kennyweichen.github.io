@@ -1,0 +1,9 @@
+---
+title: "Noise in SGD"
+categories:
+  - statistics
+full-width: true
+---
+
+<iframe src="assets/pdfs/BST_235_final_revised_draft.pdf"
+        style="width:100vw; height:100vh; border:none;"></iframe>

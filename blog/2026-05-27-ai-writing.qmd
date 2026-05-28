@@ -1,0 +1,52 @@
+---
+title: "25 year old man yells about X, Writing, AI"
+categories:
+  - musings
+full-width: false
+---
+
+When these LLMs started popping out around 2021-2022, just right when I was a senior at Amherst,
+I was not a fan of them. I wanted to learn and struggle on my own and not offshore it 
+to some "clanker". It felt very antihuman of me. 
+
+Fast forward to today where I've been working for about 2 years now, I've been using AI
+in a lot of my work now, whether it is to brainstorm ideas, do quick literature reviews, jumpstart me in a domain 
+I'm not familiar with, write boilerplate code, set up pipelines,
+debug code. I've been relying quite a lot on it actually, now that I'm writing all 
+of this out. And recently, I've been going on X a lot and my algorithm had led me to 
+the hopecore/self-help side of X (if you know you know) and I started noticing that the posts would all sound like AI.
+They have a very staccato'd way of writing. Shortened declaritive sentences, "It's not X. It's Y" type beat.
+
+And seeing this honestly makes me really disgusted. AI should be used to help us out,
+not to replace human to human interaction on social media. But how can I judge when I rely
+on AI so much? It appears I draw the line where it makes me comfortable. For all I know,
+these people on X might be doing this for a full time job or something else necessitates the use of AI.
+
+I'm too tired and it's too early for me to think about this too critically so I guess
+it's more of "old man yells at clouds" kind of post. I quite like that, I think I will make that the title of this post.
+
+But anyways, back to my rambling, the reason why I wanted to write about this was because I want to write poorly.
+I want to write with poor grammar, typos, run on sentences. Because AI has made writing too easy, too polished, too perfect.
+
+And I'm scared AI will influence me to write in a way (eventually) that converges to the way AI writes.
+A positive reinforcing cycle where we consume the writings of AI and thus mimic it in our own writings (if we still write that is).
+
+So I choose (or maybe its because I'm lazy), but I like to think I choose to write like myself. I don't want to 
+write the perfect sentence and have it sounding like AI. Writing is art, it is a form of expression and I don't want to lose it.
+
+The older I get and the more I rely on AI to do my labor, the more I'm scared I don't know where to draw that line.
+
+I saw a post online about someone asking AI to help write their birthday cards or holiday cards for friends / family and
+that makes me really fucking sad. Why are we telling a probability distribution of texts to do the job of being human for us?
+
+When we no longer have to be human, what is in store for us? It reminds me Osamu Dazai's novel, "No longer human" which deals more 
+with social alienation but perhaps I wonder if us having AI do everything for us, if that is also a form of social alienation.
+
+In which we've just asked AI to do the social connections for us but if everyone asks AI to make social connections for us,
+then where does that leave us? Just all socially isolated beings who have little to none capacity to experience the human experience.
+
+I don't know. But I find solace in the not knowing, because I will persist and I will struggle and I will try to
+hold on to any shred of humanity I have.
+
+
+

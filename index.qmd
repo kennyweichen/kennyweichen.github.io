@@ -1,0 +1,21 @@
+---
+title: Home
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  max-items: 10
+  categories: false
+---
+
+Hi! my name is Kenny, 陈承熙, and this is my website where I'm putting everything about myself into one place. I'm a statistician, interested in how math can be used to do good in the world. A lot of my work is involved in exploring issues of public health, particularly children's health, and social justice.
+
+I'm also interested in how advanced statistical learning methods are used in other spaces like finance and data science, where things are constantly evolving. But most importantly, I'm someone's son, brother, partner, and a person living for the first time.
+
+Still trying to figure the best way to organize my website. Like life, it is a WIP. Inspired by [this](https://motherfuckingwebsite.com/){target="_blank"}.
+
+![Profile Picture](/assets/images/profile_picture.jpeg){style="max-width: 40%; height: auto;"}
+
+## Recent Posts
+
+Browse my blog posts below:

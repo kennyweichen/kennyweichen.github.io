@@ -1,0 +1,9 @@
+---
+title: "Masters Thesis: Separation of Data"
+categories:
+  - statistics
+full-width: true
+---
+
+<iframe src="assets/pdfs/masters-thesis.pdf"
+        style="width:100vw; height:100vh; border:none;"></iframe>

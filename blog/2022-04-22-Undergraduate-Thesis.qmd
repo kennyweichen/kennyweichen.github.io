@@ -1,0 +1,9 @@
+---
+title: "Undergraduate Thesis: Nonparametric high-dimensional measure of dependence using checkerboard copulas"
+categories:
+  - statistics
+full-width: true
+---
+
+<iframe src="assets/pdfs/correctedKenny-Chen_StatThesis.pdf"
+        style="width:100vw; height:100vh; border:none;"></iframe>

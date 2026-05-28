@@ -1,0 +1,8 @@
+---
+title: "Las Vegas Health Inspections and Yelp Reviews Dashboard"
+categories:
+  - statistics
+full-width: true
+---
+
+<a href="https://stat231-groupc.shinyapps.io/Final/" target="_blank" rel="noopener">View the dashboard in a new tab</a>

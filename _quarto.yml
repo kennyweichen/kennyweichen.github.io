@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Kenny's Website"
+  site-url: https://kennyweichen.com
+  description: ""
+
+  navbar:
+    logo: assets/images/profile.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "GitHub"
+        href: pages/github.qmd
+      - text: "Publications"
+        href: pages/publications.qmd
+      - text: "Pictures"
+        href: pages/pictures.qmd
+      - text: "Strava"
+        href: pages/strava.qmd
+    right:
+      - icon: github
+        href: https://github.com/kennyweichen
+
+  page-footer:
+    left: "Kenny Chen"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+    number-sections: false
+
+execute:
+  freeze: auto
+
+blog:
+  contents: blog
+  sort: "date desc"
+  date-format: "YYYY-MM-DD"
+  categories: true
+  feed: true
+
+# Enable math rendering
+html-math-method:
+  method: mathjax
+  url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

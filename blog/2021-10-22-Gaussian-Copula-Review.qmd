@@ -1,0 +1,9 @@
+---
+title: Review of Gaussian Copula Paper
+categories:
+  - statistics
+full-width: true
+---
+
+<iframe src="assets/pdfs/gaussian_copula_biomarker_review.pdf"
+        style="width:100vw; height:100vh; border:none;"></iframe>

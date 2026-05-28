@@ -1,0 +1,11 @@
+---
+title: Blog
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+---
+
+Welcome to my blog! Browse posts below by date or category.

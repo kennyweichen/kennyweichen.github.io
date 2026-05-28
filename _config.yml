@@ -26,6 +26,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
+exclude:
+  - venv/
+
 # collections_dir: my_collections
 # collections:
 #   projects:
